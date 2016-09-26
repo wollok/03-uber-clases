@@ -14,11 +14,18 @@ Cada chofer tiene su estrategia para tomar un viaje o no
 
 Resolver el requerimiento de saber si un chofer puede tomar o no un viaje.
 
-## Punto 2) 
-Queremos ver qué choferes pueden tomar el viaje que quiere hacer dodain.
+### Preguntas
 
-Hablar de polimorfismo.
-¿Cómo testearlo?
+* ¿Cómo instancian un cliente?
+* ¿Cómo instancian un chofer?
+* ¿Necesitamos modelar la agencia?
+
+## Punto 2) 
+Queremos ver qué choferes pueden tomar el viaje que quiere hacer el cliente Dodain, que mide 1,88 metros, de Liniers a Quilmes, el sábado 01/10, que insume 15 kilómetros.
+
+### Preguntas
+* ¿Cómo se testea?
+* ¿Qué tiene que ver el polimorfismo en este punto? ¿A quién ayuda?
 
 ## Punto 3)
 Queremos agregar que para tomar un viaje
@@ -26,7 +33,12 @@ Queremos agregar que para tomar un viaje
 * ningún chofer puede tomar más de 10 viajes
 * y tampoco puede hacer un viaje de más de 100 kilómetros
 
-Pensar dos maneras de resolverlo.
+Pensar dos maneras de resolverlo **sin repetir código**.
+
+### Tips
+
+* super
+* template method
 
 ## Punto 4) 
 Cada chofer tiene su propio criterio para establecer la tarifa
@@ -37,6 +49,8 @@ Cada chofer tiene su propio criterio para establecer la tarifa
 
 Implementar esta estrategia sabiendo que cualquier chofer puede elegir una u otra opción, o querer cambiarla a futuro.
 
+### Tip: la herencia no es la única solución
+
 ## Punto 5) 
 Hacer que un cliente viaje, de manera de 
 
@@ -45,6 +59,10 @@ Hacer que un cliente viaje, de manera de
 * elegir el que cobra menos (cualquiera)
 * efectuar el viaje (la persona se dirige al destino)
 
+### Preguntas
+
+* ¿Cuándo hay efecto?
+
 ## Punto 6)
 Hacer un segundo viaje para el mismo cliente.
 Saber cuánto gastó en total ese cliente en viajes.
@@ -52,4 +70,4 @@ Saber cuánto gastó en total ese cliente en viajes.
 ## Punto 7)
 Cada chofer tiene un auto, queremos saber cuáles son los autos en los que viajó un cliente.
 
-
+### Pregunta: ¿para qué me ayudan los bloques?
