@@ -8,9 +8,10 @@ La agencia tiene clientes y choferes.
 ## Punto 1)
 Cada chofer tiene su estrategia para tomar un viaje o no
 
-* algunos toman viaje siempre (como Daniel)
-* otros como Nicolás solo toman viajes si son de 5 a 10 kilómetros, o si van por autopista 
+* algunos toman viaje siempre
+* otros solo toman viajes si son de 5 a 10 kilómetros, o si van por autopista 
 * por último están los choferes que solo quieren llevar pasajeros que sean altos (que midan más de 1,80)
+ * Daniel es un chofer particular, es uno de los que toman pasajeros altos, pero no quiere hacer un viaje de más de 100 kilómetros
 
 Resolver el requerimiento de saber si un chofer puede tomar o no un viaje.
 
@@ -31,7 +32,6 @@ Queremos ver qué choferes pueden tomar el viaje que quiere hacer el cliente Dod
 Queremos agregar que para tomar un viaje
 
 * ningún chofer puede tomar más de 10 viajes
-* y tampoco puede hacer un viaje de más de 100 kilómetros
 
 Pensar dos maneras de resolverlo **sin repetir código**.
 
