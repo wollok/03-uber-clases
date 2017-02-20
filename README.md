@@ -17,9 +17,9 @@ Resolver el requerimiento de saber si un chofer puede tomar o no un viaje.
 
 ### Preguntas
 
-* ¿Cómo instancian un cliente?
-* ¿Cómo instancian un chofer?
-* ¿Necesitamos modelar la agencia?
+* ¿Cómo lo encaramos? ¿Partimos del cliente, del chofer? 
+* ¿Cómo lo testeamos?
+
 
 ## Punto 2) 
 Queremos ver qué choferes pueden tomar el viaje que quiere hacer el cliente Dodain, que mide 1,88 metros, de Liniers a Quilmes, el sábado 01/10, que insume 15 kilómetros.
